@@ -15,7 +15,7 @@ function informarNomeENivel() {
 
         let nivelDoHeroi;
 
-        if (expDoHeroi < 1000) {
+        if (expDoHeroi <= 1000) {
           nivelDoHeroi = "Ferro";
         } else if (expDoHeroi >= 1001 && expDoHeroi <= 2000) {
           nivelDoHeroi = "Bronze";
